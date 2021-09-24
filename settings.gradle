@@ -1,0 +1,11 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        //add from denzcoskun:ImageSlideshow for img slide
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "Auto_ImageSlider_kotlin_android"
+include ':app'
